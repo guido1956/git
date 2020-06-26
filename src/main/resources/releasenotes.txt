@@ -1,6 +1,10 @@
+Versie 0.3
+class Boeken
+***********************************
 Versie 0.2
 Boek.java aangevuld met aantalBladzijden
 Main02.java
+Eerste testfiles
 ************************************
 Versie 0.1
 Boek.java met alleen titel en auteur
