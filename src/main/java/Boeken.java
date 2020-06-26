@@ -10,6 +10,8 @@ public class Boeken {
         boeken.add(boek);
     }
 
-
+public int aantalBoeken() {
+        return boeken.size();
+}
 
 }
