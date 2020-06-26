@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Boeken {
-    private ArrayList<Boek> boeken = new ArrayList<>();
+    private final ArrayList<Boek> boeken = new ArrayList<>();
 
     public Boeken() {
     }
@@ -10,8 +10,10 @@ public class Boeken {
         boeken.add(boek);
     }
 
-public int aantalBoeken() {
+    public int aantalBoeken() {
         return boeken.size();
-}
+    }
+
+
 
 }
