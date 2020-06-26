@@ -1,6 +1,7 @@
 public class Boek {
     private String titel;
     private String auteur;
+    private int aantalBladzijden;
 
     public Boek(String titel, String auteur) {
         this.titel = titel;
@@ -21,5 +22,13 @@ public class Boek {
 
     public void setAuteur(String auteur) {
         this.auteur = auteur;
+    }
+
+    public int getAantalBladzijden() {
+        return aantalBladzijden;
+    }
+
+    public void setAantalBladzijden(int aantalBladzijden) {
+        this.aantalBladzijden = aantalBladzijden;
     }
 }
