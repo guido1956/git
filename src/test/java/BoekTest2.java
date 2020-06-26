@@ -1,8 +1,8 @@
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class BoekTest {
 
+public class BoekTest2 {
     @Test
     public void createBoek() {
         Boek boek = new Boek("titel", "auteur");
@@ -10,6 +10,5 @@ public class BoekTest {
         assertEquals("titel", boek.getTitel());
 
     }
-
 
 }
