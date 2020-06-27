@@ -17,7 +17,7 @@ public class Boeken {
     public String toString() {
         String rapport = "";
         for (Boek boek : boeken) {
-            rapport += boek.getTitel();
+            rapport += boek.getTitel() + " " + boek.getAuteur();
         }
         return rapport;
     }
