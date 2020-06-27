@@ -14,6 +14,13 @@ public class Boeken {
         return boeken.size();
     }
 
+    public String toString() {
+        String rapport = "";
+        for (Boek boek : boeken) {
+            rapport += boek.getTitel();
+        }
+        return rapport;
+    }
 
 
 }
